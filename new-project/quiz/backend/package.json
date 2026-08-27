@@ -1,0 +1,25 @@
+{
+  "name": "quizquest-server",
+  "version": "1.0.0",
+  "private": true,
+  "description": "QuizQuest API - a tiny Express + MongoDB backend for the Web Dev Foundations course.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "scores:clear": "node scripts/data.js scores:clear",
+    "scores:reset": "node scripts/data.js scores:reset",
+    "questions:reset": "node scripts/data.js questions:reset",
+    "data:reset": "node scripts/data.js reset",
+    "data:status": "node scripts/data.js status"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.4.2",
+    "express": "^4.19.2",
+    "mongoose": "^9.9.4"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "//": [
+    "Settings for `npm run dev` (nodemon). Not used by `npm start`.",
+    "",
+    "watch: restart only when the SOURCE changes. Data now lives in MongoDB,",
+    "  not on disk, so there's nothing left to exclude on that account.",
+    "",
+    "delay: wait a moment after a save, so one Ctrl+S is one restart."
+  ],
+  "watch": ["server.js", "seed.js", "routes", "utils", "models"],
+  "ignore": ["node_modules/*"],
+  "ext": "js,json",
+  "delay": 500
+}

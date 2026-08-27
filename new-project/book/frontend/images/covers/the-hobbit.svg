@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 600" width="400" height="600" role="img" aria-label="The Hobbit by J. R. R. Tolkien">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#4a3f63"/>
+      <stop offset="100%" stop-color="#4a3f63" stop-opacity="0.82"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="600" fill="url(#g)"/>
+  <rect x="0" y="0" width="14" height="600" fill="#000" opacity="0.18"/>
+  <rect x="34" y="34" width="332" height="532" fill="none" stroke="#d8c7f0" stroke-opacity="0.45" stroke-width="1.5"/>
+  <circle cx="200" cy="118" r="30" fill="none" stroke="#d8c7f0" stroke-opacity="0.6" stroke-width="1.5"/>
+  <path d="M186 108 h28 v22 l-14 -8 -14 8 z" fill="#d8c7f0" fill-opacity="0.75"/>
+  <text font-family="Georgia, 'Times New Roman', serif" font-size="54" font-weight="700" fill="#f5f0e7" text-anchor="middle"><tspan x="200" y="250">The Hobbit</tspan></text>
+  <line x1="140" y1="430" x2="260" y2="430" stroke="#d8c7f0" stroke-opacity="0.6" stroke-width="1.5"/>
+  <text x="200" y="470" font-family="Georgia, 'Times New Roman', serif" font-size="22" fill="#f5f0e7" fill-opacity="0.85" text-anchor="middle">J. R. R. Tolkien</text>
+  <text x="200" y="540" font-family="Helvetica, Arial, sans-serif" font-size="13" letter-spacing="3" fill="#d8c7f0" fill-opacity="0.8" text-anchor="middle">FANTASY</text>
+</svg>

@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="1600" height="900" role="img" aria-label="A dark stage lit by violet and gold spotlights">
+  <defs>
+    <radialGradient id="violet" cx="18%" cy="12%" r="55%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.55"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="gold" cx="85%" cy="70%" r="50%">
+      <stop offset="0%" stop-color="#e2c62d" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#e2c62d" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="green" cx="60%" cy="105%" r="45%">
+      <stop offset="0%" stop-color="#4ae176" stop-opacity="0.20"/>
+      <stop offset="100%" stop-color="#4ae176" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+  <rect width="1600" height="900" fill="#171331"/>
+  <rect width="1600" height="900" fill="url(#violet)"/>
+  <rect width="1600" height="900" fill="url(#gold)"/>
+  <rect width="1600" height="900" fill="url(#green)"/>
+  <g fill="#d2bbff" opacity="0.13" font-family="Verdana, Geneva, sans-serif" font-weight="700">
+    <text x="180" y="700" font-size="150">?</text>
+    <text x="1320" y="260" font-size="110">?</text>
+    <text x="760" y="180" font-size="70">?</text>
+    <text x="1120" y="770" font-size="90">?</text>
+    <text x="430" y="300" font-size="60">?</text>
+  </g>
+  <g fill="#e2c62d" opacity="0.16">
+    <circle cx="1020" cy="180" r="7"/>
+    <circle cx="300" cy="480" r="5"/>
+    <circle cx="1450" cy="560" r="9"/>
+    <circle cx="640" cy="820" r="6"/>
+    <circle cx="880" cy="420" r="4"/>
+  </g>
+</svg>

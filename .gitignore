@@ -10,10 +10,10 @@ HW3_Message_Wall.md
 
 Design/
 
-*.css
-*.html
-new-project/book/Frontend/js/*.js
-new-project/quiz/Frontend/js/*.js
+# *.css
+# *.html
+# new-project/book/Frontend/js/*.js
+# new-project/quiz/Frontend/js/*.js
 
 
 .kombai
